@@ -4,12 +4,12 @@ class Footer extends Component {
     render() {
         return (
             <>
-                <div className={`row footer`}>
+                <div id="contact" className={`row footer`}>
                     <div className={`col-sm-1`}></div>
                     <div className={`col-sm-10`}>
                     
                         <div className={`footer1`}>
-                            <h6>Contct us</h6>
+                            <h6 className={`sectionHeading`}>Contact us</h6>
 
                             <div>
                                 Have a project in mind? <br/>Let's make it happen
@@ -55,7 +55,7 @@ class Footer extends Component {
                             <ul>
                                 <li>Explore open jobs</li>
                                 <br/>
-                                <li>©2000-2023 Compnay name</li>
+                                <li>©2000-2023 Company name</li>
                             </ul>
                         </div>
                     </div>

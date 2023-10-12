@@ -30,11 +30,11 @@ class CaseStudies extends Component{
     render(){
         return(
             <>
-                <div className={`row`}>
+                <div id="cases" className={`row`}>
                     <div className={`col-sm-1`}></div>
                     <div className={`col-sm-10`}>
                         <div className={`CaseStudiesContainer`}>
-                            <h6>Case studies</h6>
+                            <h6 className={`sectionHeading`}>Case studies</h6>
                             <CaseStudiesList Items={this.items} />
                         </div>
                     </div>

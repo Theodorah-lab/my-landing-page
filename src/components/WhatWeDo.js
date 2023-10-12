@@ -36,11 +36,11 @@ class WhatWeDo extends Component{
     render(){
         return(
             <>
-                <div className={`row`}>
+                <div id="services" className={`row`}>
                     <div className={`col-sm-1`}></div>
                     <div className={`col-sm-10`}>
                         <div className={`whatWeDoItemContainer`}>
-                            <h6>What we do</h6>
+                            <h6 className={`sectionHeading`}>What we do</h6>
                             <h3>
                                 <strong>
                                     We offer a complete range of bespoke design and development 

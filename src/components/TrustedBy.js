@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import WhatWeDoList from "./WhatWeDoList";
 import img1 from '../assests/visa-black.svg'
 import img2 from '../assests/tyme-bank-black.svg'
 import img3 from '../assests/distell-black 1.svg'
@@ -43,11 +42,11 @@ class TrustedBy extends Component{
     render(){
         return(
             <>
-                <div className={`row`}>
+                <div id="industries" className={`row`}>
                     <div className={`col-sm-1`}></div>
                     <div className={`col-sm-10`}>
                         <div className={`trustedByItemContainer`}>
-                            <h6>You'll be in good company</h6>
+                            <h6 className={`sectionHeading`}>You'll be in good company</h6>
                             <h3>
                                 <strong>Trusted by leading brands</strong>
                             </h3>

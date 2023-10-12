@@ -12,7 +12,7 @@ class Body extends Component{
                         <div>
                             <h3>Live with Confidence</h3>
                             <p>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-                            <button className={`btn-primary view-project`}>View projects</button>
+                            <button className={`view-project`}>View projects</button>
                         </div>
                     </div>
                 </div>

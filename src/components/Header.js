@@ -16,16 +16,16 @@ class Header extends Component{
                         <div className={`collapse navbar-collapse`}>
                         <ul className={`navbar-nav me-auto`}>
                             <li className={`nav-item`}>
-                            <a className={`nav-link`} >Services</a>
+                            <a href="#services" className={`nav-link`} >Services</a>
                             </li>
                             <li className={`nav-item`}>
-                            <a className={`nav-link`} >Industries</a>
+                            <a href="#industries" className={`nav-link`} >Industries</a>
                             </li>
                             <li className={`nav-item`}>
-                            <a className={`nav-link`}>Cases</a>
+                            <a href="#cases" className={`nav-link`}>Cases</a>
                             </li>
                             <li className={`nav-item`}>
-                            <a className={`nav-link`}>Contact</a>
+                            <a href="#contact" className={`nav-link`}>Contact</a>
                             </li>
                         </ul>
                         <div className={`d-flex`}>
